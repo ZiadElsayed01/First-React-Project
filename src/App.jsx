@@ -10,7 +10,7 @@ import Error from "./Components/Error/Error";
 
 let paths = createBrowserRouter([
   {
-    path: "",
+    path: "/",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
