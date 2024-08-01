@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ZiadElsayed01.github.io/first-react-project",
+  "homepage": "https://ziadelsayed01.github.io/first-react-project",
   "name": "task1",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
